@@ -53,7 +53,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\DragDropBomb.cs" />
      <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
      <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RandomDir.cs" />
      <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
@@ -70,7 +69,9 @@
      <Compile Include="Assets\JMO Assets\WarFX\Spawn System\CFX_SpawnSystem.cs" />
      <Compile Include="Assets\Scripts\bombScript.cs" />
      <Compile Include="Assets\Scripts\DragDropTNT.cs" />
+     <Compile Include="Assets\Scripts\Level_Control.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\Man_Die.cs" />
      <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend Scroll.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
