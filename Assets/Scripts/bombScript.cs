@@ -10,11 +10,13 @@ public class bombScript : MonoBehaviour
     public LayerMask LayerToHit;
     public GameObject ExplosionEffect;
     
-    public int timeStart = 10;
+    public int timeStart = 5;
     public Text textBox;
     public bool bool_time = false;
     
     public GameObject man1;
+    public GameObject man2;
+    public GameObject man3;
     
     public GameObject level_complete_panel;
     public GameObject level_not_complete_panel;
@@ -28,7 +30,7 @@ public class bombScript : MonoBehaviour
         
         if(timeStart==0)
         {
-        	if(man1==null)
+        	if(man1==null && man2==null && man3==null)
         	{
         		level_complete_panel.SetActive(true);
         	}
