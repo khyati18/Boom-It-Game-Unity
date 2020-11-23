@@ -18,6 +18,8 @@ public class bombScript : MonoBehaviour
     public GameObject man2;
     public GameObject man3;
     
+    public GameObject stopper;
+    
     public GameObject level_complete_panel;
     public GameObject level_not_complete_panel;
 
@@ -58,6 +60,8 @@ public class bombScript : MonoBehaviour
 
     void explode()
     {
+    	SoundManager.PlaySound("bomb");
+    	Destroy(stopper);
     	bool_time = true;
         textBox.text = "00:" + timeStart.ToString();
         

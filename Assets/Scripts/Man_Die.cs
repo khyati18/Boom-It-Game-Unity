@@ -17,6 +17,7 @@ public class Man_Die : MonoBehaviour
     {
     	if(collision.collider.tag=="Ground")
     	{
+    		SoundManager.PlaySound("death");
     		DestroyMan();
     	}
     }
